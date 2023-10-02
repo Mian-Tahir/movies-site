@@ -20,7 +20,7 @@ function searchMovies (){
         const movies = data.Search.filter((movie)=>{
 return movie.Year >= document.getElementById('year').value
         });
-        const outPut = movies.map((movie)=>{
+        const outPut = movies.map ((movie)=>{
             return (`<img src=${movie.Poster} />` )
         });
 
@@ -30,5 +30,5 @@ return movie.Year >= document.getElementById('year').value
  
 }
 
-const btn = document.getElementById('btn')
-btn.onclick=searchMovies;
+document.getElementById('btn').onclick=searchMovies;
+window.addEventListener("load", searchMovies)
