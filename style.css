@@ -1,0 +1,28 @@
+#container{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+#demo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+li{
+    display: flex;
+    flex-direction: column;
+    /* width: 100px; */
+}
+#container{
+    background-color: rgb(0, 255, 255);
+}
+#movieName{
+    box-sizing: bo;
+}
